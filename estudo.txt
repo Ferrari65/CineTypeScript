@@ -1,0 +1,43 @@
+Atomic Design é uma metodologia criada por Brad Frost que nos ajuda a criar interfaces de forma mais organizada. Ela se baseia na ideia de dividir a interface em partes menores e reutilizáveis, que podem ser combinadas para formar componentes maiores e mais complexos.
+
+Os cinco níveis do Atomic Design
+
+1 - Átomos
+
+São as “peças” mais simples: um botão, uma cor, uma fonte, um ícone.
+
+Sozinhos não fazem muita coisa, mas são essenciais.
+
+2 - Moléculas
+
+Juntam dois ou mais átomos para formar uma função básica: por exemplo, um rótulo + campo de texto + botão de “Enviar”.
+
+Já funcionam como um mini-componente.
+
+3 - Organismos
+
+Reúnem várias moléculas para compor uma seção completa: o cabeçalho de um site com logo, menu e busca, por exemplo.
+
+São partes bem definidas da página.
+
+4 - Templates
+
+São o “rascunho” da página: mostram onde cada organismo fica, sem conteúdo real ainda.
+
+Ajudam a visualizar a estrutura geral.
+
+5 - Páginas
+
+Pegam o template e preenchem com textos, imagens e dados de verdade.
+
+É o que o usuário finalmente vê e interage.
+
+Com Atomic Design, cada pedaço pode ser reaproveitado em várias telas, tornando o trabalho mais rápido e organizado.
+
+Vantagens do Atomic Design
+Reutilização: como você está criando componentes pequenos e reutilizáveis, pode usá-los em diferentes partes do seu projeto, economizando tempo e esforço.
+Consistência: ajuda a manter um design consistente em todo o projeto, pois os mesmos componentes são usados repetidamente.
+Facilidade de manutenção: se precisar fazer uma alteração, você só precisa atualizar o componente em um lugar, e a mudança se refletirá em todo o projeto.
+Colaboração: facilita o trabalho em equipe, pois todos os membros podem entender e usar os mesmos componentes.
+
+  //union type
